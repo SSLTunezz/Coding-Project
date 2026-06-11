@@ -23,4 +23,4 @@ Btw you can use these words in a sentance and my bot will still respond.
 
 Thanks for reading!
 
-PS Test him out and add him to channels!
+PS Test him out and add him to channels!!
