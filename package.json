@@ -1,0 +1,25 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "aoerufhawef",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSLTunezz/Coding-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SSLTunezz/Coding-Project/issues"
+  },
+  "homepage": "https://github.com/SSLTunezz/Coding-Project#readme",
+  "dependencies": {
+    "@slack/bolt": "^4.7.3",
+    "dotenv": "^17.4.2"
+  }
+}
