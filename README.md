@@ -11,23 +11,16 @@ Clearly Borepheus is *EXTREMMELY* usefull and you should definnetly add him. Now
 2. I got lost. Really lost. I really wanted my bot respond to trigger words like NINJA, 67, etc... and I coudln't find any guides. Even Chat gpt failed me here. This is why I contacted orpheus's maker, @NORA, who I annoyed with question and NOra was really nice. I learend what event subscriptions I needed. Then I had to use chat gpt a bit to learn syntax and how to properly use the subscription. Slack provided a good guide but I'm terrible in java syntax. 
 3. I added a bunch of trigger words that people would enjoy, I won't spoil all of it right now. EHH maybe i will on the bottom of the read me. Only for people who acc read everything :)
 4. I tested everything and deleted or added new features
-5. I pushed to Nest and github which was super hard, is it just me or do you guys always get confused where to run the terminal commands, like i have 2 terminals pycharm terminal and mac terminal and I never know where to run the commands, in general im super bad at git push and pushing projects in gerneal so chat gpt clutched up a bit because it turned out i was pasting all the push commands on the wrong terminal :(
-6. At first I named by bot Orephus_Jr but I realized orpheus is young so a younger junior wouldn't make sense hence i named him borephus. I know this sounds dumb but I learned that App name and Bot name are different things but I get it now (Trust)
-7. I added it to channels but then disaster struck! He was considered a spam bot because the trigger words were to common so he would respond too much. I lwk panicked here cause I couldn't remove him from the channel and everyone was like "umm your not supposed to add him" so then I disabled him for a while. To fix this spammyness i added a limit that it can only respond 20 times per 24 hours, it can't respond to bot messages and it can't respond to thread messages. These changes were made to try reduce the spammyness of the bot. I really liked the timer idea because it solved a big problem simply.
-8. THe trigger words: 
+5. At first I named by bot Orephus_Jr but I realized orpheus is young so a younger junior wouldn't make sense hence i named him borephus. I know this sounds dumb but I learned that App name and Bot name are different things but I get it now (Trust)
+6. THe trigger words: 
 Ninja
-Vibecode/vibecoding
+Vibecode
 Lol
 Bored
 67
 
-.
-
 Btw you can use these words in a sentance and my bot will still respond.
 
-I'm super proud of this bot (btw my first software project)(more hardware guy) so I am soooo proud that my bot runs and ppl can use it. Please dm for changes, addition, etc... and I hope you have a nice time using this bot
 Thanks for reading!
 
 PS Test him out and add him to channels!!
-
-IMPORTANT: FOR REVIEWS TO TEST MY BOT JOIN THE CHANNEL CALLED test-channel-for-my-bot OR ADD IT TO YOUR OWN CHANNEL.
