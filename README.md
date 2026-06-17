@@ -21,6 +21,8 @@ Lol
 Bored
 67
 
+.
+
 Btw you can use these words in a sentance and my bot will still respond.
 
 I'm super proud of this bot (btw my first software project)(more hardware guy) so I am soooo proud that my bot runs and ppl can use it. Please dm for changes, addition, etc... and I hope you have a nice time using this bot
