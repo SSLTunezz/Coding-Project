@@ -24,3 +24,6 @@ Btw you can use these words in a sentance and my bot will still respond.
 Thanks for reading!
 
 PS Test him out and add him to channels!!
+
+IMPORTANT:
+FOR REVIEWS TO TEST MY BOT JOIN THE CHANNEL CALLED test-channel-for-my-bot OR ADD IT TO YOUR OWN CHANNEL.
