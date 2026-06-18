@@ -1,6 +1,35 @@
 # My Slack Bot Borepheus
 Introducing... BOREPHEUS!!!! Borepheus is Orpheus's brother and LOVES meme's. Unlike Orpheus his taste is a bit less mature than Haiku's. Does your message include a trigger word that's used in a famous meme? Well your in luck, becuase borepheus will make sure to reply to your message with the meme related to that word. Example, Try message Ninja in slack. If borepheus is in your chat, he will reply with "IMAGINE IF NINJA GOT A LOWWWW TAPPPER FADEEE" He makes sure meme's won't get forgotten. (DM @SSLTuenzz if you want a new meme to be recognized). 
 
+Before we get into what Did and how etc Here is a guide on how to set up Borepheus to make your own bot like borepheus 
+1. Follow the star dance guide link: https://stardance.hackclub.com/missions/slack-bot/guide until and including add more commands
+2. Next go to your slack api that Im sure your fimilar with after reading the guide and go to event subscriptions, in the side bar there should be something called event subscriptions, click it
+3. You will see a option to turn on even subscriptions with a green slider (maybe it changes in the future) but just turn it on.
+4. Leave request url blank
+5. Add these following events: message.channels
+channels:history
+message.groups
+groups:history	
+message.im
+6. It may require you to enable some oaths enable what it wants you to enable.
+7. Since the stardance guide uses java and has alr set up everything paste my code into your java file
+8. Edit as you will, some usefull tips are in the code and are slashed out, you can select your own trigger words, responses, limits etc...
+9. Test it out locally, by putting node.*filename*.js in your editor terminal and test and debug stuff (stardance guide teaches you how to run locally if this is confusing)
+10. Now contintue following the star dance guide to push it to nest 24/7
+11. Enjoy Borepheus (or whatever you name him)
+
+NOWW... Going back to the process.
+
+
+
+
+
+
+
+
+
+
+
 
 Don't worry, Borepheus can be usefull too!  Have you ever pinged someone with @ and not gotten a response and then regretted all your life choices and figure your just a lonley unsocial person? No? Only me? Well either way, Borepheus will make sure to tell you if the person you pinged is offline so you don't expect a respone and never get one.
 
@@ -34,3 +63,4 @@ PS Test him out and add him to channels!!
 
 IMPORTANT: FOR REVIEWS TO TEST MY BOT JOIN THE CHANNEL CALLED test-channel-for-my-bot OR ADD IT TO YOUR OWN CHANNEL.
 PS Test him out and add him to channels!!
+

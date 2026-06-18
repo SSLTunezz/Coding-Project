@@ -13,7 +13,7 @@ const MAX_RESPONSES = 20;
 const Reset_Interval = 24 * 60 * 60 * 1000; // 24 hours
 
 function canRespond() {
-  if (Date.now() - lastReset >= lastReset) {
+  if (Date.now() - lastReset >= Reset_Interval) {
     responseCount = 0;
     lastReset = Date.now();
   }
@@ -24,11 +24,28 @@ function canRespond() {
   return true;
 }
 
-const SECRET_WORD = "ninja";
+const SECRET_WORD = "ninja"; //here you can insert the trigger words so instead of ninja you could say "yay"
 const SECRET_67 = "67"
 const SECRET_SERIOUSLY = "vibecod"
 const SECRET_LOL = "lol"
 const SECRET_BORED = "bored"
+const WELCOME = "thx"
+
+
+app.message(async ({ message, say }) => {
+if (message.thread_ts) return; //optional, this doesnt reply if msg is in a thread
+  if (
+    message.text &&
+    message.text.toLowerCase().includes(WELCOME) //here you add the const trigger words you want if you want it to respond with emoji you need to do :emoji-name:
+  ) {
+    if (!canRespond()) return; //this is the limit. to delete the limit remove this
+
+    await say({
+      text: "awhh :love:", //your response
+      thread_ts: message.thread_ts || message.ts //to reply in a thread. if you want to reply normally remove || message.ts
+    });
+  }
+});
 
 
 app.message(async ({ message, say }) => {
@@ -50,7 +67,6 @@ if (message.thread_ts) return;
 
 app.message(async ({ message, say }) => {
 if (message.thread_ts) return;
-
   if (
     message.text &&
     message.text.toLowerCase().includes(SECRET_67)
@@ -138,7 +154,7 @@ app.message(async ({ message, client, say }) => {
 
 
 
-
+//basic slash commands
 
 
 
