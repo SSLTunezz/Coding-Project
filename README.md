@@ -64,3 +64,9 @@ PS Test him out and add him to channels!!
 IMPORTANT: FOR REVIEWS TO TEST MY BOT JOIN THE CHANNEL CALLED test-channel-for-my-bot OR ADD IT TO YOUR OWN CHANNEL.
 PS Test him out and add him to channels!!
 
+
+
+Some images cause yes
+![Example-1}(https://github.com/SSLTunezz/Coding-Project/blob/main/Exmp2.png?raw=true)
+
+![Example-2}(https://github.com/SSLTunezz/Coding-Project/blob/main/Exmp3.png?raw=true)
