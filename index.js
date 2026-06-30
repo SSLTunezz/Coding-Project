@@ -32,20 +32,20 @@ const SECRET_BORED = "bored"
 const WELCOME = "thx"
 
 
-app.message(async ({ message, say }) => {
-if (message.thread_ts) return; //optional, this doesnt reply if msg is in a thread
-  if (
-    message.text &&
-    message.text.toLowerCase().includes(WELCOME) //here you add the const trigger words you want if you want it to respond with emoji you need to do :emoji-name:
-  ) {
-    if (!canRespond()) return; //this is the limit. to delete the limit remove this
-
-    await say({
-      text: "awhh :love:", //your response
-      thread_ts: message.thread_ts || message.ts //to reply in a thread. if you want to reply normally remove || message.ts
-    });
-  }
-});
+//app.message(async ({ message, say }) => {
+//if (message.thread_ts) return; //optional, this doesnt reply if msg is in a thread
+//  if (
+//    message.text &&
+//    message.text.toLowerCase().includes(WELCOME) //here you add the const trigger words you want if you want it to respond with emoji you need to do :emoji-name:
+//  ) {
+//    if (!canRespond()) return; //this is the limit. to delete the limit remove this
+//
+//    await say({
+//      text: "awhh :love:", //your response
+//      thread_ts: message.thread_ts || message.ts //to reply in a thread. if you want to reply normally remove || message.ts
+//    });
+//  }
+//});
 
 
 app.message(async ({ message, say }) => {

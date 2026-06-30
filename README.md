@@ -64,3 +64,4 @@ PS Test him out and add him to channels!!
 IMPORTANT: FOR REVIEWS TO TEST MY BOT JOIN THE CHANNEL CALLED test-channel-for-my-bot OR ADD IT TO YOUR OWN CHANNEL.
 PS Test him out and add him to channels!!
 
+Some images I added: ![Example1](![img.png](img.png))
