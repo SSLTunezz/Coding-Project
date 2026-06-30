@@ -66,8 +66,7 @@ PS Test him out and add him to channels!!
 
 Images for reference: He really does work!
 
-<img width="315" height="133" alt="Image" src="https://github.com/user-attachments/assets/68b21356-82de-456d-8227-566d99bbc76b" />
+<img width="379" height="352" alt="Image" src="https://github.com/user-attachments/assets/17b2c127-9c70-4580-bc33-af393e613955" />
 
-
-
+<img width="281" height="105" alt="Image" src="https://github.com/user-attachments/assets/70f1b9d8-4bf4-475c-9def-438118a61dc8" />
 
