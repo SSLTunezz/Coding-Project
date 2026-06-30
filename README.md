@@ -67,6 +67,6 @@ PS Test him out and add him to channels!!
 
 
 Some images cause yes
-![Example-1}(https://github.com/SSLTunezz/Coding-Project/blob/main/Exmp2.png?raw=true)
+![Example-1}(https://github.com/SSLTunezz/Coding-Project/blob/main/Exmp2.png)
 
-![Example-2}(https://github.com/SSLTunezz/Coding-Project/blob/main/Exmp3.png?raw=true)
+![Example-2}(https://github.com/SSLTunezz/Coding-Project/blob/main/Exmp3.png)
